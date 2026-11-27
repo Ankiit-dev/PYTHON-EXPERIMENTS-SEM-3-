@@ -1,0 +1,9 @@
+assignments = ["Python", "DBMS", "DSA"]
+
+print("Original list:", assignments)
+
+assignments.append("Microprocessor")
+
+assignments.remove("Python")
+
+print("Updated list:", assignments)
