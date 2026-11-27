@@ -1,0 +1,14 @@
+def calculate_calories(carbs, fat, protein):
+
+    calories = (carbs * 4) + (fat * 9) + (protein * 4)
+
+    return calories
+
+
+carbs = float(input("Enter carbs: "))
+fat = float(input("Enter fat: "))
+protein = float(input("Enter protein: "))
+
+total = calculate_calories(carbs, fat, protein)
+
+print("Total calories:", total)
