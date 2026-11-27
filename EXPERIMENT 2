@@ -1,0 +1,7 @@
+mass = float(input("Enter mass in kg: "))
+
+earth_weight = mass * 9.8
+moon_weight = mass * 1.62
+
+print("Weight on Earth:", earth_weight, "N")
+print("Weight on Moon:", moon_weight, "N") 
